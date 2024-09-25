@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="script.js" defer></script>
+    <title> Slider</title>
+  </head>
+  
+  <body>
+    <video id="background-video" loop muted autoplay>
+      <source src="8180935-uhd_4096_2160_25fps.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="slideshow">
+      <div class="carousel">
+        <div class="slide active">
+          <img src="food-img-1.png" />
+        </div>
+        <div class="slide">
+          <img src="food-img-2.png" />
+        </div>
+        <div class="slide">
+          <img src="food-img-3.png" />
+        </div>
+        <div class="slide">
+          <img src="food-img-4.png" />
+        </div>
+      </div>
+      <div class="controls">
+        <a href="#" data-index="1" class="active">
+          <img src="control-img-1.png" />
+        </a>
+        <a href="#" data-index="2">
+          <img src="control-img-2.png" />
+        </a>
+        <a href="#" data-index="3">
+          <img src="control-img-3.png" />
+        </a>
+        <a href="#" data-index="4">
+          <img src="control-img-4.png" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
